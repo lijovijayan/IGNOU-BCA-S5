@@ -1,0 +1,52 @@
+body.home-page {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-division {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.content-division h1 {
+    text-align: center;
+}
+.content-division .venue {
+    text-align: center;
+}
+
+.links {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.links a {
+   padding: 5px 10px;
+   background-color: white;
+   border: 1px solid black;
+   text-decoration: none;
+}
+
+.links-footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+table td,th {
+    padding: 5px 15px;
+    text-align: left;
+}
+.feedback-form label {
+        width: 150px;
+        display: inline-block;
+        margin-bottom: 10px;
+}
+.feedback-form .submit-button {
+    margin-left: 155px;
+}
