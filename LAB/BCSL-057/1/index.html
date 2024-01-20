@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style type="text/css">
+            form.form-all {
+                margin: 0px auto;
+                padding-top: 0px;
+                width: 650px;
+                color: black !important;
+                font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Verdana", "Tahoma", sans-serif;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" name="form" class="form-all">
+            <ul>
+                <li>
+                    <div>
+                        <h1>Exam Registration Form</h1>
+                        <div>Clearly fill the form below and ensure to indicate the courses registered for.</div>
+                    </div>
+                </li>
+                <li>
+                    <label for="fname">Student Name <span>*</span></label>
+                    <div>
+                        <div>
+                            <span style="vertical-align: top">
+                                <input type="text" name="fname" size="10" required />
+                                <label>First Name</label>
+                            </span>
+                            <span style="vertical-align: top">
+                                <input type="text" name="lname" />
+                                <label class="form-sub-label" for="lname" id="sublabel-last" style="min-height: 13px">
+                                    Last Name
+                                </label>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <label for="enrt">Student Registration Number <span>*</span></label>
+                    <div>
+                        <input type="number" name="enrt" required />
+                    </div>
+                </li>
+                <li>
+                    <label for="course">Registered Course <span>*</span></label>
+                    <div>
+                        <input type="text" name="course" required />
+                    </div>
+                </li>
+                <li>
+                    <label for="date">Exams End <span>*</span></label>
+                    <input type="date" name="date" />
+                </li>
+                <li>
+                    <label for="comment">Comment</label>
+                    <textarea
+                        id="input-8"
+                        class="form-textarea"
+                        name="comment"
+                        cols="40"
+                        rows="6"
+                        data-component="textarea"
+                    ></textarea>
+                </li>
+                <li>
+                    <button id="input-2" type="submit" class="form-submit-button" data-component="button">
+                        Submit
+                    </button>
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>

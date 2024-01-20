@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+<product>
+    <name>paper bag</name>
+    <type>miscellaneous</type>
+    <cost>rs 20</cost>
+</product>
+<product>
+    <name>screw driver</name>
+    <type>tools</type>
+    <cost>rs54</cost>
+</product>
+<product>
+    <name>samsung s7</name>
+    <type>electronic</type>
+    <cost>rs 10000</cost>
+</product>
+<product>
+    <name>paper clip</name>
+    <type>miscellanious</type>
+    <cost>rs 1</cost>
+</product>
+</products>

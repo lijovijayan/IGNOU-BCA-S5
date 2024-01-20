@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customers>
+<customer>
+    <name>john doe</name>
+    <address>112 house,abc street,park avenue</address>
+    <phone1>1254875454</phone1>
+     <phone2> 548785412</phone2>      
+</customer>
+<customer>
+    <name>jane doe</name>
+    <address> 112 house,bca street,park avenue</address>
+    <phone1>881919690</phone1>
+    <phone2>8547862878</phone2>  
+</customer>
+<customer>
+    <name>anto jeson raj</name>
+    <address> 116 house, bca street,park avenue</address>
+    <phone1>8075184088</phone1>
+    <phone2>9072114205</phone2>
+</customer>
+<customer>
+    <name>sruthi j boben</name>
+    <address>116 house ,mca street,park avenue</address>
+    <phone1>121456789</phone1>
+    <phone2>123456789</phone2>
+</customer>
+</customers>
